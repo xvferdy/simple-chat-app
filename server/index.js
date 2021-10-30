@@ -10,7 +10,7 @@ app.use(cors());
 //socket.io related
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000/",
+    origin: "http://localhost:3000",
     methods: ["GET", "POST"],
   },
 });
@@ -22,7 +22,7 @@ io.on("connection", (socket) => {
   //someone want to join
   socket.on("join_room", (data) => {
     socket.join(data);
-    console.log(data);
+    // console.log(data);
   });
 
   //someone chating
@@ -30,7 +30,7 @@ io.on("connection", (socket) => {
     //emit to frontend
     // data => object of message detail
     socket.to(data.room).emit("receive_message", data);
-    console.log(data);
+    // console.log(data);
   });
 
   //disconnect

@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import { v4 as uuidv4 } from "uuid";
 import Chat from "./Chat";
 
-const socket = io.connect("http://localhost:8000/");
+const socket = io.connect("http://localhost:8000");
 
 //socket.io
 // .on
