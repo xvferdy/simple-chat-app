@@ -52,7 +52,7 @@ function App() {
               }}
               placeholder="Room ID"
             />
-            <button onClick={joinRoom}>Join</button>
+            <button onClick={joinRoom}>Enter</button>
           </div>
         </form>
       )}
