@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import ScrollToBottom from "react-scroll-to-bottom";
+import { useInput } from "./hooks/useInput";
 
 function Chat({ socket, username, room, userId }) {
-	const [currentMessage, setCurrentMessage] = useState("");
 	const [messageList, setMessageList] = useState([]); //array of object of message detail
+	const [currentMessage, handleChange, reset] = useInput("");
 
 	useEffect(() => {
 		socket.on("receive_message", (data) => {
@@ -18,16 +19,14 @@ function Chat({ socket, username, room, userId }) {
 				userId: userId,
 				room: room,
 				message: currentMessage,
-				time: `${new Date().getHours()}:${new Date().getHours()}`,
+				time: `${new Date().getHours()}:${new Date().getMinutes()}`,
 			};
 
 			await socket.emit("send_message", messageData);
-			setCurrentMessage("");
 			setMessageList((prev) => [...prev, messageData]);
+			reset();
 		}
 	};
-
-	console.log(messageList);
 
 	return (
 		<div className="chat-window">
@@ -59,8 +58,8 @@ function Chat({ socket, username, room, userId }) {
 				<input
 					type="text"
 					placeholder={`Chat...`}
-					onChange={(e) => setCurrentMessage(e.target.value)}
 					value={currentMessage}
+					onChange={handleChange}
 					autoFocus
 					onKeyPress={(e) => {
 						e.key === "Enter" && sendMessage();
