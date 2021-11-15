@@ -30,31 +30,28 @@
   height: 30px;
   margin: 7px;
   border: 2px solid;
-  border-color: #00c6ff;
-  border-radius: 5px;
+  border: 1px solid #e9e9ed;
   padding: 5px;
   font-size: 14px;
 }
 .joinChatContainer input:focus {
-  border: 2px solid #00b5ff;
+  border: 1px solid #00b5ff;
   outline: none;
 }
 .joinChatContainer input::placeholder {
-  opacity: 0.3;
+  opacity: 0.4;
 }
 .joinChatContainer button {
-  width: 325px;
   height: 60px;
   margin: 7px;
   border: 0.1px solid #f0f8ff;
-  border-radius: 5px;
   padding: 5px;
   font-size: 14px;
   background: linear-gradient(-45deg, #4c60ff, #a134fd, #c643d0, #f9598f);
   background-size: 600%;
   color: #fff;
   cursor: pointer;
-  animation: anime 2s linear infinite;
+  animation: anime 9s linear infinite;
   transition: 0.3s;
 }
 .joinChatContainer button:focus {

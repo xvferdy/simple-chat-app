@@ -56,31 +56,28 @@ $gray-border-color: lightgray;
 		height: 30px;
 		margin: 7px;
 		border: 2px solid;
-		border-color: $main-color;
-		border-radius: 5px;
+		border: 1px solid $gray-color;
 		padding: 5px;
 		font-size: 14px;
 		&:focus {
-			border: 2px solid $dark-color;
+			border: 1px solid $dark-color;
 			outline: none;
 		}
 		&::placeholder {
-			opacity: 0.3;
+			opacity: 0.4;
 		}
 	}
 	button {
-		width: 325px;
 		height: 60px;
 		margin: 7px;
 		border: 0.1px solid $background-color-light;
-		border-radius: 5px;
 		padding: 5px;
 		font-size: 14px;
 		background: $gradient-color-button;
 		background-size: 600%;
 		color: $light-text-color;
 		cursor: pointer;
-		animation: anime 2s linear infinite;
+		animation: anime 9s linear infinite;
 		transition: 0.3s;
 		&:focus {
 			border: 2px solid;
