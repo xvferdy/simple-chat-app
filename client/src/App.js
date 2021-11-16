@@ -5,7 +5,8 @@ import Chat from "./Chat";
 import logo from "./assets/logo.png";
 import "./stylesheets/css/main.css";
 
-const socket = io.connect("http://localhost:8000");
+// const socket = io.connect("http://localhost:8000");
+const socket = io.connect("https://server-simple-chat-app.herokuapp.com");
 
 // socket.io
 // .on
