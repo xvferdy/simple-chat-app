@@ -4,8 +4,12 @@ const http = require("http");
 const cors = require("cors");
 const server = http.createServer(app);
 const { Server } = require("socket.io");
+const router = require("./router");
 
 app.use(cors());
+app.use(router);
+
+const port = process.env.PORT || 8000;
 
 const io = new Server(server, {
 	cors: {
@@ -36,6 +40,6 @@ io.on("connection", (socket) => {
 	});
 });
 
-server.listen(8000, () => {
-	console.log("PORT RUNNING IN 8000");
+server.listen(port, () => {
+	console.log("Server is up and running!");
 });
