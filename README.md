@@ -8,6 +8,7 @@
     - [Built with](#built-with)   
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
+    - [File Structure Overview](#file-structure-overview)
     - [Installation](#-installation)
 
 
@@ -34,6 +35,42 @@ Very simple chat app where people with unique ID send messages to each other in 
 - [NPM](https://www.npmjs.com/)
 - [Dart Sass](https://sass-lang.com/dart-sass)
 
+### File Structure Overview
+```
+simple-chat-app
+├── client
+├── server
+├── .gitignore
+└── README.md
+```
+###### ./client
+```
+client
+├── node_modules
+├── public
+├── src
+│   ├── assets
+│   ├── hooks
+│   │   └── useInput.js
+│   ├── stylesheets
+│   │   │   ├── css
+│   │   │   └── scss
+│   ├── App.js
+│   ├── Chat.js
+│   └── index.js
+├── package.json.json
+└── package-lock
+```
+###### ./server
+```
+server
+├── node_modules
+├── index.js
+├── package.json.json
+├── package-lock
+├── Procfile
+└── router.js
+```
 
 ### 📦 Installation
 ```
