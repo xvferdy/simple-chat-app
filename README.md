@@ -12,7 +12,7 @@
 
 
 ## About the Project
-Very simple chat app where people with unique ID send messages to each other in the same room.
+Very simple chat app where people with unique ID send messages to each other in the same room. In the frontend we're using react and deploy it on [netlify](https://www.netlify.com/ "Netlify") and for the server we're gonna host it on the [heroku](https://www.heroku.com/platform "Heroku").
 
 **Overview** 🌈
 <p align="">
