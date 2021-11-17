@@ -43,6 +43,10 @@ simple-chat-app
 ├── .gitignore
 └── README.md
 ```
+
+<details>
+    <summary><b>Client</b></summary>
+
 ###### ./client
 ```
 client
@@ -51,16 +55,21 @@ client
 ├── src
 │   ├── assets
 │   ├── hooks
-│   │   └── useInput.js
 │   ├── stylesheets
-│   │   │   ├── css
-│   │   │   └── scss
+│   │   ├── css
+│   │   └── scss
 │   ├── App.js
 │   ├── Chat.js
 │   └── index.js
 ├── package.json.json
 └── package-lock
 ```
+</details>
+
+
+<details>
+    <summary><b>Server</b></summary>
+
 ###### ./server
 ```
 server
@@ -71,6 +80,9 @@ server
 ├── Procfile
 └── router.js
 ```
+</details>
+
+
 
 ### 📦 Installation
 ```
