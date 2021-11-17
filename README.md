@@ -6,7 +6,7 @@
 - [About The Project](#-about-the-project)
     - [Live](#live-simple-chat-app)
     - [Built with](#built-with)   
-- [Getting Started](#getting-started)
+- [Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [File Structure Overview](#file-structure-overview)
     - [Installation](#-installation)
@@ -29,7 +29,7 @@ Very simple chat app where people with unique ID send messages to each other in 
 - [Socket.IO](https://socket.io/) ver ^4.3.2
 
 
-## Getting Started
+## 📥 Getting Started
 ### Prerequisites
 - [Node.js](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/)
