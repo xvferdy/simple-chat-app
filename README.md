@@ -19,7 +19,7 @@ Very simple chat app where people with unique ID send messages to each other in 
   <img src="./client/src/assets/overview3.png">
 </p>
 
-### Live https://simple-chat-app-xvferdy.netlify.app/
+### Live [simple-chat-app](https://simple-chat-app-xvferdy.netlify.app/)
 
 ### Built With
 - React
