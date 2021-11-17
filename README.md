@@ -12,7 +12,7 @@
 
 
 ## About the Project
-Simple implementation of state management using react built-in hooks ➤ `useContext()`, `useReducer()` and as an example of a case study on this project is a supermarket/shopping cart.
+Very simple chat app where people with unique ID send messages to each other in the same room.
 
 **Overview** 🌈
 <p align="">
@@ -23,6 +23,8 @@ Simple implementation of state management using react built-in hooks ➤ `useCon
 
 ### Built With
 - React
+- Node.js
+- Express
 - [Socket.IO](https://socket.io/) ver ^4.3.2
 
 
