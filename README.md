@@ -4,8 +4,8 @@
 
 ## :round_pushpin:Table of Contents
 - [About The Project](#about-the-project)
-    - [Built with](#built-with)
     - [Live](#live-httpssimple-chat-app-xvferdynetlifyapp)
+    - [Built with](#built-with)   
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -42,10 +42,4 @@ npm install
 npm start
 ```
 
-
-
-
-**Overview** 🌈
-<p align="">
-  <img src="./client/src/assets/overview3.png">
-</p>
+# //
