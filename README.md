@@ -10,3 +10,9 @@
     - [Installation](#installation)
     - [Launch](#launch)
 - [Live](#live)
+
+
+**Overview** 🌈
+<p align="">
+  <img src="./client/src/assets/overview.png">
+</p>
