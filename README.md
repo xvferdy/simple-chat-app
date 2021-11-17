@@ -5,7 +5,7 @@
 ## :round_pushpin:Table of Contents
 - [About The Project](#-about-the-project)
     - [Live](#live-simple-chat-app)
-    - [Built with](#built-with)   
+    - [Built with](#-built-with)   
 - [Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [File Structure Overview](#file-structure-overview)
@@ -22,7 +22,7 @@ Very simple chat app where people with unique ID send messages to each other in 
 
 ### Live [simple-chat-app](https://simple-chat-app-xvferdy.netlify.app/)
 
-### Built With
+### 👀 Built With
 - React
 - Node.js
 - Express
