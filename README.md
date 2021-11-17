@@ -5,7 +5,7 @@
 ## :round_pushpin:Table of Contents
 - [About The Project](#about-the-project)
     - [Built with](#built-with)
-    - [Live](##live-https---simple-chat-app-xvferdynetlifyapp-)
+    - [Live](#live-https---simple-chat-app-xvferdynetlifyapp-)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
