@@ -61,8 +61,8 @@ client
 │   ├── App.js
 │   ├── Chat.js
 │   └── index.js
-├── package.json.json
-└── package-lock
+├── package-lock.json
+├── package.json
 ```
 </details>
 
@@ -75,8 +75,8 @@ client
 server
 ├── node_modules
 ├── index.js
-├── package.json.json
-├── package-lock
+├── package-lock.json
+├── package.json
 ├── Procfile
 └── router.js
 ```
