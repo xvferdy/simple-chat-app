@@ -93,13 +93,11 @@ npm start
 ```
 
 ### Run Locally
-**Client**
 ###### client/src/App.js
 ```javascript
 const socket = io.connect("http://localhost:8000");
 // const socket = io.connect("https://server-simple-chat-app.herokuapp.com");
 ```
-**Server**
 ###### server/index.js
 ```javascript
 origin: "http://localhost:3000",
