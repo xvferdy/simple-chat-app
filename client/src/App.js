@@ -2,7 +2,7 @@ import { useState } from "react";
 import io from "socket.io-client";
 import { v4 as uuidv4 } from "uuid";
 import Chat from "./Chat";
-import logo from "./assets/logo.png";
+import logo from "./assets/logo-min.png";
 import "./stylesheets/css/main.css";
 
 // const socket = io.connect("http://localhost:8000");

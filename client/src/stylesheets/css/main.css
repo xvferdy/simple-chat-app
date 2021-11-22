@@ -51,7 +51,7 @@
   background-size: 600%;
   color: #fff;
   cursor: pointer;
-  animation: anime 9s linear infinite;
+  animation: anime 8s linear infinite;
   transition: 0.3s;
 }
 .joinChatContainer button:focus {
