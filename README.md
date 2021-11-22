@@ -10,7 +10,7 @@
     - [Prerequisites](#prerequisites)
     - [File Structure Overview](#file-structure-overview)
     - [Installation](#-installation)
-
+    - [Run Locally](#run-locally)
 
 ## 🌍 About the Project
 Very simple chat app where people with unique ID send messages to each other in the same room. In the frontend we're using react and deploy it on [netlify](https://www.netlify.com/ "Netlify") and for the server we're gonna host it on the [heroku](https://www.heroku.com/platform "Heroku").
@@ -66,7 +66,6 @@ client
 ```
 </details>
 
-
 <details>
     <summary><b>Server</b></summary>
 
@@ -82,8 +81,6 @@ server
 ```
 </details>
 
-
-
 ### 📦 Installation
 ```
 npm install -g sass
@@ -93,6 +90,20 @@ npm install
 ```
 ```
 npm start
+```
+
+### Run Locally
+**Client**
+###### client/src/App.js
+```javascript
+const socket = io.connect("http://localhost:8000");
+// const socket = io.connect("https://server-simple-chat-app.herokuapp.com");
+```
+**Server**
+###### server/index.js
+```javascript
+origin: "http://localhost:3000",
+// origin: "https://simple-chat-app-xvferdy.netlify.app",
 ```
 
 <h3 align="right">
